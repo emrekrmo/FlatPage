@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product">
+<head>
+    <!-- Meta tags & title /-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Flat Studio - A Flat Responsive One Page HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="humans.txt">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> <!-- Favicon /-->
+    <!-- Facebook Metadata /-->
+    <meta property="fb:page_id" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
+    <!-- Google+ Metadata /-->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- Stylesheets /-->
+    <link rel="stylesheet" href="/Content/css/gumby.css">   <!-- Gumby Frameworks /-->
+    <link rel="stylesheet" href="/Content/css/style.css">   <!-- Main stylesheet /-->
+    <link rel="stylesheet" href="/Content/css/metrize.css"> <!-- Metrize Icon /-->
+    <link rel="stylesheet" href="/Content/css/hoverex-all.css"> <!-- Hover Info on Member /-->
+
+    <script src="/Content/js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /--> @*for old explorers*@
+</head>
+
+<body>
+
+    <div class="container">
+        @Html.Action("_Menu")
+        @Html.Action("_Header")
+        @Html.Action("_LatestWorks")
+        @Html.Action("_CTA1")
+        @Html.Action("_WhatWeDo")
+        @Html.Action("_CTA2")
+        @Html.Action("_Contact")
+        @Html.Action("_Footer")
+    </div> <!-- end of #container -->
+    <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script> @*changed to //*@
+    <script>window.jQuery || document.write('<script src="/Content/js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="/Content/js/jquery.parallax-1.1.3.js" type="text/javascript"></script> <!-- jQuery Parallax -->
+    <script src="/Content/js/waypoints.min.js" type="text/javascript"></script> <!-- Smooth Scrolling -->
+    <script src="/Content/js/jquery.scrollto.js" type="text/javascript"></script> <!-- ScrollTo -->
+    <script src="/Content/js/classie.js" type="text/javascript"></script> <!-- Menu -->
+    <script src="/Content/js/jquery.hoverdir.min.js" type="text/javascript"></script> <!-- Filter Works -->
+    <script src="/Content/js/jquery.isotope.js" type="text/javascript"></script> <!-- Also for Filter Works -->
+    <script src="/Content/js/jquery.hoverex.min.js" type="text/javascript"></script> <!-- Hoverex for social icon on member -->
+    <script src="/Content/js/main.js" type="text/javascript"></script> <!-- Main Javascript File -->
+
+</body>
+</html>
